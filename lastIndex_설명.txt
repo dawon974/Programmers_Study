@@ -1,0 +1,13 @@
+
+indexOf()함수
+-string.indexOf(searchvalue(검색할 값), position(시작위치))
+//앞에서부터 문자열(string)에서 특정 문자열(searchvalue)을 찾고,
+검색된 문자열이 첫번째로 나타나는 위치 index를 리턴
+
+*searchvalue : 필수 입력값, 찾을 문자열
+*position : optional, 기본값은 0, string에서 searchvalue를 찾기 시작할 위치
+
+lastindexOf()함수
+-str*.lastIndexOf(*searchValue(검색할값)*[, *fromIndex*](시작위치))
+//뒤에서부터 주어진 문자열 str(index: 0) 지정한 searchValue가 
+처음으로 발견되는 위치의 index 반환한다.
